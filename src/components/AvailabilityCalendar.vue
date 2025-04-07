@@ -89,7 +89,6 @@ const maxDate = new Date(new Date().setMonth(new Date().getMonth() + 12))
 
 // Replace this URL with your actual Airbnb iCal feed URL
 const AIRBNB_ICAL_URL = 'https://www.airbnb.com/calendar/ical/54109316.ics?s=3fbc2c40965513e907b961818bd2d834'
-
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000'
 
 const calendarAttributes = ref([
